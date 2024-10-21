@@ -1,0 +1,31 @@
+House Robber 4
+There are n houses arranged in a straight street. A thief wants to rob exactly k houses from the street , but he cannot rob two adjacent houses, as the owners will notify their neighbors. Determine the number of ways in which thief can rob exactly k houses.
+Note: Answer can be large so return it with modulo 109 + 7.
+
+Example 1:
+
+Input:
+n = 4
+k = 2
+Output:
+3
+Explanation:
+Thief can rob houses in the following 3 ways - 
+- first and third houses.
+- first and fourth houses.
+- second and fourth houses
+Example 2:
+
+Input:
+n = 4
+k = 3
+Output:
+0
+Explanation:
+As there is no way to rob exactly 3 houses from 4 houses in the street.
+Your Task:
+You have to complete the function houseRobWays( ) , which takes two integers n and k as input parameters and returns the number of ways in which thief can rob exactly k houses from n houses according to the problem statement with modulo 109 + 7.
+
+Constraints:
+2 <= n <= 105
+1 <= k <= n

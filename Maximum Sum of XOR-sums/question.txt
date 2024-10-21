@@ -1,0 +1,29 @@
+Maximum Sum of XOR-sums
+You are given a positive integer array arr of length n. You must select two non-overlapping subarrays from arr such that the sum of their XOR sums is maximized. Return this maximum sum.
+The XOR-sum of an array is the result of applying the bitwise XOR operation to all the elements in the array.
+
+Example 1:
+
+Input:
+n = 5
+arr = {2, 3, 5, 1, 4}
+Output:
+11
+Explanation:
+We can select {3, 5} and {1,4} two non-overlapping subarrays and sum of their XOR-sums are  (3⊕5) + (1⊕4) = 6 + 5 = 11 and it can prove that it is maximum sum we can get. 
+
+Example 2:
+
+Input:
+n = 6
+arr = {1, 2, 3, 4, 5, 6}
+Output:
+13
+Explanation:
+We can select {3, 4} and {6} two non-overlapping subarrays and sum of their XOR-sums are  (3⊕4) + (6) = 7 + 6 = 13 and it can prove that it is maximum sum we can get. 
+Your Task:
+You have to complete the function maximumSumOfXorSums( ), which takes an integer n and a positive integer array arr of length n as input parameters and returns the maximum sum of XOR-sums of two non-overlapping subarrays.
+
+Constraints:
+2 <= n <= 105
+1 <= arr[i] <= 109
